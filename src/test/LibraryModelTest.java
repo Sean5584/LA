@@ -19,7 +19,6 @@ public class LibraryModelTest {
 	@Test
 	void testAddSong() {
 		Song song = new Song("Test Song", "Test Artist", "Test Album", "Pop");
-		// Song song = new Song("Test Song", "Test Artist", "Test Album");
 		library.addSong(song);
 		assertTrue(library.getUserSongs().containsKey("Test Song"));
 	}
