@@ -14,6 +14,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Music store setup
+        //test
         String albumsFilePath = "resources/albums/albums.txt"; // Ensure this file exists
         MusicStore musicStore = new MusicStore(albumsFilePath);
         LibraryModel library = new LibraryModel();
