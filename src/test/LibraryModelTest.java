@@ -187,7 +187,7 @@ public class LibraryModelTest {
 		assertNotNull(topRated);
 		assertEquals(1, topRated.getSongs().size());
 	}
-
+ 
 	@Test
 	void testSortByTitle() {
 		library.addSong(new Song("B", "A", "Album", "Pop"));
